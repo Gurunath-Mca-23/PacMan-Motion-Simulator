@@ -34,18 +34,18 @@ function move(){
     y_pos[i]+=y_vel[i]
     if(x_vel[i]>0){
         if((Math.floor(x_pos[i]/x_vel[i]))%2!==0){
-        pacmen[i].src="/images/PacMan2.png"
+        pacmen[i].src="images/PacMan2.png"
        }
        else{
-        pacmen[i].src="/images/PacMan1.png"
+        pacmen[i].src="images/PacMan1.png"
          }
     }
     else{
         if((Math.floor(x_pos[i]/x_vel[i]))%2!==0){
-            pacmen[i].src="/images/PacMan4.png"
+            pacmen[i].src="images/PacMan4.png"
         }
         else{
-            pacmen[i].src="/images/PacMan3.png"
+            pacmen[i].src="images/PacMan3.png"
         }
     }
 

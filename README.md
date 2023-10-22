@@ -1,4 +1,6 @@
-# PacMan-Motion-Simulator
+# Random-PacMan
+Demo: https://gurunath-mca-23.github.io/PacMan-Motion-Simulator/
+
 Description: The HTML document creates a basic Pac-Man game with randomly generated Pac-Man characters that bounce off the container's boundaries and change mouth states while moving.
 
 # How to Run Project
